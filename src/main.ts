@@ -6,9 +6,9 @@ import { provideRouter } from '@angular/router';
 import { RtlService } from '@fundamental-ngx/cdk/utils';
 import { ThemingService, provideTheming } from '@fundamental-ngx/core/theming';
 import { provideDialogService } from '@fundamental-ngx/core/dialog';
-import { IconTabBarTextTypeExampleComponent } from './app/example/icon-tab-bar-text-type-example.component';
+import { PlatformIconTabBarTextTypeExampleComponent } from './app/example/icon-tab-bar-text-type-example.component';
 
-bootstrapApplication(IconTabBarTextTypeExampleComponent, {
+bootstrapApplication(PlatformIconTabBarTextTypeExampleComponent, {
     providers: [
       provideAnimations(),
       provideRouter([]),
